@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".LoginPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+
+        android:text="Login Page"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/lpusername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Username"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/et_style"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/lppassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@drawable/et_style"
+        android:layout_below="@+id/lpusername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="141dp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/lppassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="149dp"
+        android:backgroundTint="@color/black"
+        android:text="Login"
+        android:textSize="20dp" />
+
+</RelativeLayout>
